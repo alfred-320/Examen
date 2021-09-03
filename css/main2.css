@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://images.pexels.com/photos/5288748/pexels-photo-5288748.jpeg?cs=srgb&dl=pexels-victoria-ouarets-5288748.jpg&fm=jpg);
+    background-size: cover;
+    background-position:center ;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+nav ul{
+    display: flex
+}
+nav ul li{
+    margin-left: 15px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.logo{
+    font-size: 75px;
+    color: #fff;
+    font-weight: 100;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+}
+.menu li a{
+    color: #fff;
+}
+.header-cont{
+    font-family:'Poppins', sans-serif; ;
+    max-width: 600px;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.header-cont h2{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.header-cont p{
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+.header-cont a{
+    display: inline-block;
+    margin-top: 25px;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #626262;
+    font-weight: 700;
+}
